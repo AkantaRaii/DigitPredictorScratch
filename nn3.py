@@ -45,4 +45,3 @@ output=np.dot(layer1_output,np.array(weights2).T)+biases2
 
 print(output)
 print(type(output))
-print()
