@@ -4,7 +4,7 @@ import matplotlib as plt
 import pickle
 
 #importing csv data 
-digits=pd.read_csv('../data/train_digit.csv')
+digits=pd.read_csv('train_digit.csv')
 
 #converting data to numpy array
 data=np.array(digits)

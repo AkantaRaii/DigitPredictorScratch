@@ -32,7 +32,7 @@ def show_prediction(index,x,w1,b1,w2,b2):
     plt.imshow(current_image, cmap='gray', interpolation='nearest')  # Use cmap='gray' for grayscale
     plt.show()
 
-digits = pd.read_csv('../data/test_digit.csv')
+digits = pd.read_csv('test_digit.csv')
 
 # Convert data to a numpy array
 digits = np.array(digits)
